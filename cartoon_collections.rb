@@ -5,6 +5,8 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planeteer_calls)
+  newArray = []
+  newArray.concat(planeteer_calls)
   puts planeteer_calls.collect {|x| x + "!"}
 end
 
