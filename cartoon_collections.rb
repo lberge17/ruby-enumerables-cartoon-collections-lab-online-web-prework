@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarves)
   new = []
-  dwarves.each {|n|
-  puts "#{n}"
+  dwarves.each {|dwarf|
+  puts "#{dwarf}"
   }
 end
 
