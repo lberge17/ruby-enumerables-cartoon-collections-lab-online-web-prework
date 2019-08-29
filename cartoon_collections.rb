@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   newArray = []
-  newArray.concat(planeteer_calls).capitalize
+  newArray = planeteer_calls.capitalize
   puts newArray.collect {|x| x + "!"}
 end
 
