@@ -1,14 +1,11 @@
 def roll_call_dwarves(dwarves)
-  new = []
   dwarves.each_with_index {|dwarf, index|
   puts "#{index + 1}. #{dwarf}"
   }
 end
 
 def summon_captain_planet(planeteer_calls)
-  calls = []
-  calls = planeteer_calls.collect {|x| x + "!"}
-  puts calls
+  puts planeteer_calls.collect {|x| x + "!"}
 end
 
 def long_planeteer_calls# code an argument here
